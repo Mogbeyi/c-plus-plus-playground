@@ -1,0 +1,56 @@
+: 1622128358:0;ls
+: 1622128360:0;vim average.cpp
+: 1622128366:0;cd ..
+: 1623931210:0;ls
+: 1623931214:0;vim average.cpp
+: 1623931220:0;ls
+: 1623931227:0;vim average.cpp
+: 1623932076:0;cc -o average average.cpp
+: 1623932126:0;vim average.cpp
+: 1623932150:0;cc -o average average.cpp
+: 1623932173:0;vim average.cpp
+: 1623932240:0;cc -o average average.cpp
+: 1623932245:0;vim average.cpp
+: 1623932251:0;cc -o average average.cpp
+: 1623932624:0;ls
+: 1623932627:0;vim average.cpp
+: 1623932678:0;cc -o average average.cpp
+: 1623932688:0;vim average.cpp
+: 1623932698:0;cc -o average average.cpp
+: 1623932720:0;vim average.cpp
+: 1623932798:0;cc -o average average.cpp
+: 1623932812:0;vim average.cpp
+: 1623932851:0;cc -o average average.cpp
+: 1623933055:0;vim average.cpp
+: 1623933155:0;cc -o average average.cpp
+: 1623933166:0;vim average.cpp
+: 1623933177:0;cc -o average average.cpp
+: 1623933187:0;vim average.cpp
+: 1623933204:0;cc -o average average.cpp
+: 1623933297:0;vim average.cpp
+: 1623933315:0;cc -o average average.cpp
+: 1623933322:0;vim average.cpp
+: 1623933392:0;cc -o average average.cpp
+: 1623933402:0;vim average.cpp
+: 1623934630:0;ls
+: 1623934641:0;vim average.cpp
+: 1623934653:0;cc -o average average.cpp
+: 1623934669:0;vim average.cpp
+: 1623934677:0;cc -o average average.cpp
+: 1623959667:0;ls
+: 1623959669:0;cd ..
+: 1623960022:0;ls
+: 1623960032:0;cc -o average average.cpp
+: 1623960038:0;vim average.cpp
+: 1623960113:0;ls
+: 1623960123:0;vim average.cpp
+: 1623960159:0;g++ average average.cpp
+: 1623960179:0;g++ -o average average.cpp
+: 1623960185:0;./average
+: 1623960194:0;vim average.cpp
+: 1623960216:0;make average
+: 1623960221:0;vim average.cpp
+: 1623960238:0;git add .
+: 1623960245:0;cd ..
+: 1623960249:0;ls
+: 1623960251:0;git add .
