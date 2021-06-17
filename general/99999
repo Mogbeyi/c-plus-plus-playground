@@ -23,3 +23,14 @@
 : 1623961087:0;./factorial
 : 1623961094:0;clear
 : 1623961105:0;git add .
+: 1623961123:0;git commit -m "Solve factorial challenge"
+: 1623961125:0;git pysh
+: 1623961128:0;git push
+: 1623961138:0;ls
+: 1623961190:0;vim multiplication.cpp
+: 1623961362:0;g++ -o natural natural.cpp
+: 1623961375:0;g++ -o multiplication multiplication.cpp
+: 1623961394:0;vim multiplication.cpp
+: 1623961416:0;g++ -o multiplication multiplication.cpp
+: 1623961419:0;./multiplication
+: 1623961444:0;git commit -am "Solve multiplication challenge"
