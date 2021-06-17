@@ -34,3 +34,14 @@
 : 1623961416:0;g++ -o multiplication multiplication.cpp
 : 1623961419:0;./multiplication
 : 1623961444:0;git commit -am "Solve multiplication challenge"
+: 1623961448:0;git push
+: 1623961454:0;clear
+: 1623968172:0;ls
+: 1623968188:0;vim factorial.cpp
+: 1623968207:0;make factorial
+: 1623968211:0;./factorial
+: 1623968220:0;vim factorial.cpp
+: 1623968228:0;make factorial
+: 1623968231:0;./factorial
+: 1623968251:0;git commit -m "Modify factorial program"
+: 1623968256:0;git commit -am "Modify factorial program"
