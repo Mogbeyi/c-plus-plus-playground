@@ -1,0 +1,25 @@
+: 1623959707:0;ls
+: 1623959721:0;vim natural.cpp
+: 1623959874:0;cc -o natural natural.cpp
+: 1623959895:0;g++ -o natural natural.cpp
+: 1623959899:0;clear
+: 1623959900:0;ls
+: 1623959903:0;./natural
+: 1623959915:0;vim natural.cpp
+: 1623959997:0;make natural
+: 1623960002:0;./natural
+: 1623960018:0;cd ..
+: 1623960280:0;ls
+: 1623960291:0;vim natural.cpp
+: 1623960329:0;./natural
+: 1623960815:0;ls
+: 1623960821:0;vim factorial.cpp
+: 1623961037:0;g++ -o factorial factorial.cpp
+: 1623961045:0;vim factorial.cpp
+: 1623961056:0;g++ -o factorial factorial.cpp
+: 1623961059:0;./factorial
+: 1623961068:0;vim factorial.cpp
+: 1623961085:0;make factorial
+: 1623961087:0;./factorial
+: 1623961094:0;clear
+: 1623961105:0;git add .
