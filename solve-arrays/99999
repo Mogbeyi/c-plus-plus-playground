@@ -59,3 +59,50 @@
 : 1623960273:0;clear
 : 1623960273:0;ls
 : 1623960275:0;cd ..
+: 1624092793:0;ls
+: 1624092794:0;clear
+: 1624092810:0;vim is-sorted.cpp
+: 1624093748:0;g++ -o is-sorted is-sorted.cpp
+: 1624093764:0;vim is-sorted.cpp
+: 1624093794:0;g++ -o is-sorted is-sorted.cpp
+: 1624093827:0;vim is-sorted.cpp
+: 1624093851:0;g++ -o is-sorted is-sorted.cpp
+: 1624093952:0;vim is-sorted.cpp
+: 1624094136:0;g++ -o is-sorted is-sorted.cpp
+: 1624094150:0;vim is-sorted.cpp
+: 1624095159:0;g++ -o is-sorted is-sorted.cpp
+: 1624095182:0;vim is-sorted.cpp
+: 1624095548:0;g++ -o is-sorted is-sorted.cpp
+: 1624095577:0;ls
+: 1624095581:0;./is-sorted
+: 1624095616:0;vim is-sorted.cpp
+: 1624095649:0;make is-sorted
+: 1624095652:0;./is-sorted
+: 1624095694:0;vim is-sorted.cpp
+: 1624095837:0;make is-sorted
+: 1624095842:0;./is-sorted
+: 1624095938:0;vim is-sorted.cpp
+: 1624096052:0;clear
+: 1624104037:0;ls
+: 1624104042:0;vim is-sorted.cpp
+: 1624104136:0;make is-sorted
+: 1624104152:0;vim is-sorted.cpp
+: 1624104166:0;make is-sorted
+: 1624104169:0;./is-sorted
+: 1624104177:0;vim is-sorted.cpp
+: 1624104210:0;make is-sorted
+: 1624104213:0;./is-sorted
+: 1624104223:0;vim is-sorted.cpp
+: 1624104235:0;make is-sorted
+: 1624104238:0;./is-sorted
+: 1624104250:0;vim is-sorted.cpp
+: 1624104277:0;make is-sorted.cpp
+: 1624104280:0;mke is-sorted
+: 1624104282:0;./is-sorted
+: 1624104289:0;vim is-sorted.cpp
+: 1624104302:0;make is-sorted
+: 1624104305:0;./is-sorted
+: 1624104310:0;vim is-sorted.cpp
+: 1624104327:0;make is-sorted
+: 1624104330:0;./is-sorted
+: 1624104334:0;git add .
