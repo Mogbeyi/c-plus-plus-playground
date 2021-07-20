@@ -17,3 +17,19 @@
 : 1626813911:0;clear
 : 1626813912:0;ls
 : 1626813951:0;cd ..
+: 1626814651:0;ls
+: 1626814666:0;vim isSorted.c
+: 1626814944:0;make isSorted
+: 1626814956:0;ls
+: 1626814965:0;vim isSorted.c
+: 1626814988:0;make isSorted
+: 1626814995:0;vim isSorted.c
+: 1626815006:0;make isSorted
+: 1626815018:0;vim isSorted.c
+: 1626815044:0;make isSorted
+: 1626815046:0;./isSorted
+: 1626815065:0;vim isSorted.c
+: 1626815087:0;make isSorted
+: 1626815090:0;./isSorted
+: 1626815096:0;clear
+: 1626815099:0;git add .
