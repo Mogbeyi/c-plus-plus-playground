@@ -106,3 +106,8 @@
 : 1624104327:0;make is-sorted
 : 1624104330:0;./is-sorted
 : 1624104334:0;git add .
+: 1624104353:0;git commit -m "Check if array is sorted or not"
+: 1624104356:0;git push
+: 1624104783:0;clear
+: 1624104784:0;ls
+: 1624104785:0;cd ..

@@ -1,0 +1,19 @@
+: 1626813784:0;ls
+: 1626813803:0;mv statistics.c statistics
+: 1626813806:0;ls
+: 1626813817:0;cat statistics
+: 1626813824:0;clear
+: 1626813825:0;ls
+: 1626813829:0;vim statistics
+: 1626813839:0;vm statistics statistics.c
+: 1626813847:0;mv statistics statistics.c
+: 1626813848:0;ls
+: 1626813850:0;vim statistics.c
+: 1626813856:0;make statistics
+: 1626813860:0;./statistics
+: 1626813865:0;ls
+: 1626813873:0;git add .
+: 1626813898:0;cat pointers.c
+: 1626813911:0;clear
+: 1626813912:0;ls
+: 1626813951:0;cd ..

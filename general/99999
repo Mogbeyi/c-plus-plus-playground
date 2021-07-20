@@ -45,3 +45,7 @@
 : 1623968231:0;./factorial
 : 1623968251:0;git commit -m "Modify factorial program"
 : 1623968256:0;git commit -am "Modify factorial program"
+: 1623968258:0;git push
+: 1623968263:0;clear
+: 1623972632:0;ls
+: 1623972633:0;cd ..
