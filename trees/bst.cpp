@@ -25,11 +25,21 @@ BstNode* insert(BstNode* root, int data) {
        return root;
 }
 
+// bool search(BstNode* root, int data) {
+//     if (root == NULL) return false;
+//     if (root->data == data) return true;
+//     else if(data <= root->data) return search(root->left, data);
+//     else return search(root->right, data);
+// }
+
 bool search(BstNode* root, int data) {
-    if (root == NULL) return false;
-    if (root->data == data) return true;
-    else if(data <= root->data) return search(root->left, data);
-    else return search(root->right, data);
+    while (root) {
+        if (root->data == data) return true;
+        else if(data <= root->data) root = root->left;
+        else root = root->right;
+    }
+
+    return false;
 }
 
 int main() {
