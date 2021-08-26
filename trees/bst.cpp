@@ -42,6 +42,20 @@ bool search(BstNode* root, int data) {
     return false;
 }
 
+int findMin(BstNode* root) {
+    if (root == NULL) cout << "Error: Binary tree is empty" << endl; 
+    int min = root->data;
+
+    while (root) {
+        if (root->data <= min) {
+            min = root->data;
+            root = root->left;
+        }
+    }
+
+    return min;
+}
+
 int main() {
     BstNode* root; // pointer to root node
     root = NULL; // setting tree as empty
@@ -51,11 +65,15 @@ int main() {
     root = insert(root, 25);
     root = insert(root, 8);
     root = insert(root, 12);
+    root = insert(root, 6);
 
-    int number;
-    cout << "Enter a number to be searched" << endl;
-    cin >> number;
+    // int number;
+    // cout << "Enter a number to be searched" << endl;
+    // cin >> number;
 
-    if (search(root, number) == true) cout <<"Found" << endl;
-    else cout <<"Not found" << endl;
+    // if (search(root, number) == true) cout <<"Found" << endl;
+    // else cout <<"Not found" << endl;
+
+    int min = findMin(root);
+    cout << "The minimum value in the tree is " << min << endl;
 }
