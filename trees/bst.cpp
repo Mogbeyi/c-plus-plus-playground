@@ -1,4 +1,5 @@
 #include <iostream>
+#include <algorithm>
 using namespace std;
 
 struct BstNode {
@@ -72,6 +73,14 @@ int findMax(BstNode* root) {
     return max;
 }
 
+int findHeight(BstNode* root) {
+    if (!root) return -1;
+    int maxLeft = findHeight(root->left);
+    int maxRight = findHeight(root->right);
+    
+    return max(maxLeft, maxRight) + 1;
+}
+
 int main() {
     BstNode* root; // pointer to root node
     root = NULL; // setting tree as empty
@@ -94,4 +103,5 @@ int main() {
     int max = findMax(root);
     cout << "The minimum value in the tree is " << min << endl;
     cout << "The maximum value in the tree is " << max << endl;
+    cout << "The height of the BST is " << findHeight(root) << endl;
 }
