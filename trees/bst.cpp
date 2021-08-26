@@ -43,17 +43,33 @@ bool search(BstNode* root, int data) {
 }
 
 int findMin(BstNode* root) {
-    if (root == NULL) cout << "Error: Binary tree is empty" << endl; 
+    if (!root) cout << "Error: Binary tree is empty" << endl; 
     int min = root->data;
 
     while (root) {
         if (root->data <= min) {
             min = root->data;
-            root = root->left;
         }
+        root = root->left;
     }
 
     return min;
+}
+
+int findMax(BstNode* root) {
+    BstNode* current = new BstNode();
+    current = root;
+    if (!current) cout << "Error: Binary tree is empty" << endl;
+    int max = current->data;
+
+    while (current) {
+        if (current->data > max) {
+            max = current->data;
+        }
+        current = current->right;
+    }
+
+    return max;
 }
 
 int main() {
@@ -75,5 +91,7 @@ int main() {
     // else cout <<"Not found" << endl;
 
     int min = findMin(root);
+    int max = findMax(root);
     cout << "The minimum value in the tree is " << min << endl;
+    cout << "The maximum value in the tree is " << max << endl;
 }
