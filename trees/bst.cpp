@@ -78,7 +78,7 @@ int findHeight(BstNode* root) {
     int maxLeft = findHeight(root->left);
     int maxRight = findHeight(root->right);
     
-    return max(maxLeft, maxRight) + 1;
+    return 1 + max(maxLeft, maxRight);
 }
 
 int main() {
